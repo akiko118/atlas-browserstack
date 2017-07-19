@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 709.874 sec <<< FAILURE! - in TestSuite
-main(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 0.062 sec  <<< FAILURE!
+Tests run: 8, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 190.567 sec <<< FAILURE! - in TestSuite
+main(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 0.191 sec  <<< FAILURE!
 org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 43 milliseconds
+Command duration or timeout: 74 milliseconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
 Capabilities [{message=Could not find device: Samsung Galaxy S7, platform=ANY}]
 Session ID: 
@@ -20,11 +20,11 @@ Session ID:
 	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:322)
 	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main(AtlasLeaderOnlyUSTest005.java:29)
 
-tearDown(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 0.093 sec  <<< FAILURE!
+tearDown(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 0.223 sec  <<< FAILURE!
 org.openqa.selenium.WebDriverException: Session not started or terminated (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 28 milliseconds
+Command duration or timeout: 31 milliseconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
 Capabilities [{message=Could not find device: Samsung Galaxy S7, platform=ANY}]
 Session ID: 
@@ -59,17 +59,17 @@ Session ID:
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:748)
+	at java.lang.Thread.run(Thread.java:745)
 
-main(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 4.106 sec  <<< FAILURE!
+main(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 2.931 sec  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 58 milliseconds
+Command duration or timeout: 48 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), deviceName==iPhone 6 (8.3 Simulator) [6A09B67C-DD72-476A-A516-F31179B85AE7], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), deviceName==iPhone 6 (8.3 Simulator) [6A09B67C-DD72-476A-A516-F31179B85AE7], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
-Session ID: 8d4db619e1cc7fd3d3e51d9e584cb2e35a7b2c37
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [F78A3359-B10A-463B-8966-D55188D48E8F], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [F78A3359-B10A-463B-8966-D55188D48E8F], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
+Session ID: e55c09bf8842ca709775fb28390338abd21a7943
 *** Element info: {Using=css selector, value=#grdPayroll > tbody > tr:nth-child(1)}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -88,15 +88,15 @@ Session ID: 8d4db619e1cc7fd3d3e51d9e584cb2e35a7b2c37
 	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.getLeaderTableHeaderTexts(TimesheetPage.java:126)
 	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main(AtlasLeaderOnlyUSTest005.java:35)
 
-main(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 6.443 sec  <<< FAILURE!
+main(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 6.645 sec  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 53 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), deviceName==iPad Air 2 (9.1) [A6B72E1A-4657-4FFE-9EC2-15B961BD22DA], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), deviceName==iPad Air 2 (9.1) [A6B72E1A-4657-4FFE-9EC2-15B961BD22DA], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=ipad, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"tablet","version":"iPad Air 2-9.1"}, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPad Air 2, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=ipad, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"tablet","version":"iPad Air 2-9.1"}, databaseEnabled=false, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPad Air 2, proxy_type=node}]
-Session ID: c091ad074be9d59934214b744433fbdd03aa3f70
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [FE80112E-84BD-46D9-BF6C-F28673804EAA], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [FE80112E-84BD-46D9-BF6C-F28673804EAA], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
+Session ID: ee9d3a8069a4bb5d9e225d9bb3abed08cb1a5484
 *** Element info: {Using=css selector, value=#grdPayroll > tbody > tr:nth-child(1)}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -115,14 +115,14 @@ Session ID: c091ad074be9d59934214b744433fbdd03aa3f70
 	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.getLeaderTableHeaderTexts(TimesheetPage.java:126)
 	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main(AtlasLeaderOnlyUSTest005.java:35)
 
-main(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 10.2 sec  <<< FAILURE!
+main(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 6.826 sec  <<< FAILURE!
 org.openqa.selenium.WebDriverException: Underlying driver does not implement advanced user interactions yet.
-Command duration or timeout: 173 milliseconds
+Command duration or timeout: 253 milliseconds
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{browserstack.tunnelIdentifier=, loggingPrefs={browser=SEVERE}, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), platform=ANDROID, browserstack.video.disableWaterMark=true, acceptSslCerts=true, browser=android, acceptSslCert=false, webStorageEnabled=true, browserName=android, takesScreenshot=true, javascriptEnabled=true, 64bit=false, browserstack.debug=true, applicationCacheEnabled=true, rotatable=true, os=android, browserstack.ie.noFlash=false, os_version=, mobile={browser=tablet, version=Google Nexus 7-4.1-1280x800}, handlesAlerts=true, version=16, browserConnectionEnabled=true, browserstack.video=true, webdriver.remote.sessionid=fcf23eb43ac7a38104aa2ef86e3a0abb893fdf1a, orig_os=macmav, locationContextEnabled=true, device=Google Nexus 7, proxy_type=node}]
-Session ID: fcf23eb43ac7a38104aa2ef86e3a0abb893fdf1a
+Capabilities [{browserstack.tunnelIdentifier=, loggingPrefs={browser=SEVERE}, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), platform=ANDROID, browserstack.video.disableWaterMark=true, acceptSslCerts=true, browser=android, acceptSslCert=false, webStorageEnabled=true, browserName=android, takesScreenshot=true, javascriptEnabled=true, 64bit=false, browserstack.debug=true, applicationCacheEnabled=true, rotatable=true, os=android, browserstack.ie.noFlash=false, os_version=, mobile={browser=tablet, version=Google Nexus 7-4.1-1280x800}, handlesAlerts=true, version=16, browserConnectionEnabled=true, browserstack.video=true, webdriver.remote.sessionid=bfedc0110dc7b486f9559e2d10c49ae9dbad5902, browserstack.ci_plugin=jenkins, orig_os=macmav, locationContextEnabled=true, device=Google Nexus 7, proxy_type=node}]
+Session ID: bfedc0110dc7b486f9559e2d10c49ae9dbad5902
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -147,14 +147,41 @@ Caused by: java.lang.UnsupportedOperationException: Underlying driver does not i
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
 	at java.lang.Thread.run(Thread.java:856)
 
-main(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 12.315 sec  <<< FAILURE!
-org.openqa.selenium.WebDriverException: Underlying driver does not implement advanced user interactions yet.
-Command duration or timeout: 41 milliseconds
+main(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 6.46 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{browserstack.tunnelIdentifier=, loggingPrefs={browser=SEVERE}, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), platform=ANDROID, browserstack.video.disableWaterMark=true, acceptSslCerts=true, browser=android, acceptSslCert=false, webStorageEnabled=true, browserName=android, takesScreenshot=true, javascriptEnabled=true, 64bit=false, browserstack.debug=true, applicationCacheEnabled=true, rotatable=true, os=android, browserstack.ie.noFlash=false, os_version=, mobile={browser=mobile, version=Samsung Galaxy Note 3-4.3-1080x1920}, handlesAlerts=true, version=18, browserConnectionEnabled=true, browserstack.video=true, webdriver.remote.sessionid=a011fd6ea17f54a17b73a6d051abcab8739ce6d6, orig_os=macyos, locationContextEnabled=true, device=Samsung Galaxy Note 3, proxy_type=node}]
-Session ID: a011fd6ea17f54a17b73a6d051abcab8739ce6d6
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPad Air 2 (9.1) [2DA85925-B477-4E29-9242-D92ED5AB62C7], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPad Air 2 (9.1) [2DA85925-B477-4E29-9242-D92ED5AB62C7], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=ipad, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"tablet","version":"iPad Air 2-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPad Air 2, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=ipad, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"tablet","version":"iPad Air 2-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPad Air 2, proxy_type=node}]
+Session ID: 17c2e9971eef35537dfab5910ccef4cc688b0fe2
+*** Element info: {Using=css selector, value=#grdPayroll > tbody > tr:nth-child(1)}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.findElements(Unknown Source)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.getLeaderTableHeaderTexts(TimesheetPage.java:126)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main(AtlasLeaderOnlyUSTest005.java:35)
+
+main(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 26.311 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: Underlying driver does not implement advanced user interactions yet.
+Command duration or timeout: 40 milliseconds
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserstack.tunnelIdentifier=, loggingPrefs={browser=SEVERE}, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), platform=ANDROID, browserstack.video.disableWaterMark=true, acceptSslCerts=true, browser=android, acceptSslCert=false, webStorageEnabled=true, browserName=android, takesScreenshot=true, javascriptEnabled=true, 64bit=false, browserstack.debug=true, applicationCacheEnabled=true, rotatable=true, os=android, browserstack.ie.noFlash=false, os_version=, mobile={browser=mobile, version=Samsung Galaxy Note 3-4.3-1080x1920}, handlesAlerts=true, version=18, browserConnectionEnabled=true, browserstack.video=true, webdriver.remote.sessionid=477a5255608e219765c6543b27fbd958274dbdfb, browserstack.ci_plugin=jenkins, orig_os=macyos, locationContextEnabled=true, device=Samsung Galaxy Note 3, proxy_type=node}]
+Session ID: 477a5255608e219765c6543b27fbd958274dbdfb
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -177,31 +204,4 @@ Caused by: java.lang.UnsupportedOperationException: Underlying driver does not i
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1080)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:573)
 	at java.lang.Thread.run(Thread.java:841)
-
-main(com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005)  Time elapsed: 6.489 sec  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 56 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), deviceName==iPhone 6s (9.1) [711F912C-09F5-4797-982A-B4B51B350599], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), deviceName==iPhone 6s (9.1) [711F912C-09F5-4797-982A-B4B51B350599], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
-Session ID: 5a0c3d65e9e471552c5a0c433bc249d2b5a45ee2
-*** Element info: {Using=css selector, value=#grdPayroll > tbody > tr:nth-child(1)}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:465)
-	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy6.findElements(Unknown Source)
-	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.getLeaderTableHeaderTexts(TimesheetPage.java:126)
-	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main(AtlasLeaderOnlyUSTest005.java:35)
 

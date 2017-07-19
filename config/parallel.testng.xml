@@ -7,6 +7,15 @@
         <parameter name="environment" value="Chrome"/>
         <classes>
             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
         </classes>
     </test>
 
@@ -15,6 +24,15 @@
         <parameter name="environment" value="iPhone6"/>
         <classes>
             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
         </classes>
     </test>
 
@@ -23,6 +41,15 @@
         <parameter name="environment" value="iPhone6s"/>
         <classes>
             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
         </classes>
     </test>
 
@@ -31,6 +58,15 @@
         <parameter name="environment" value="gNexus7"/>
         <classes>
             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
         </classes>
     </test>
     <test name="atlas_sGalaxyS7Test">
@@ -38,6 +74,15 @@
         <parameter name="environment" value="sGalaxyS7"/>
         <classes>
             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
         </classes>
     </test>
 
@@ -46,6 +91,15 @@
         <parameter name="environment" value="iPadAir2"/>
         <classes>
             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
         </classes>
     </test>
 
@@ -54,6 +108,15 @@
         <parameter name="environment" value="sGalaxyNote3"/>
         <classes>
             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
         </classes>
     </test>
 

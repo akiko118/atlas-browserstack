@@ -102,81 +102,6 @@
       </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
     </classes>
   </test> <!-- atlas_iPhone6Test(failed) -->
-  <test name="atlas_iPadAir2Test(failed)" parallel="tests">
-    <parameter name="environment" value="iPadAir2"/>
-    <parameter name="config" value="parallel.conf.json"/>
-    <classes>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
-        <methods>
-          <include name="main"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
-    </classes>
-  </test> <!-- atlas_iPadAir2Test(failed) -->
-  <test name="atlas_gNexus7Test(failed)" parallel="tests">
-    <parameter name="environment" value="gNexus7"/>
-    <parameter name="config" value="parallel.conf.json"/>
-    <classes>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
-        <methods>
-          <include name="main"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
-    </classes>
-  </test> <!-- atlas_gNexus7Test(failed) -->
-  <test name="atlas_sGalaxyNote3Test(failed)" parallel="tests">
-    <parameter name="environment" value="sGalaxyNote3"/>
-    <parameter name="config" value="parallel.conf.json"/>
-    <classes>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
-        <methods>
-          <include name="main"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
-    </classes>
-  </test> <!-- atlas_sGalaxyNote3Test(failed) -->
   <test name="atlas_iPhone6sTest(failed)" parallel="tests">
     <parameter name="environment" value="iPhone6s"/>
     <parameter name="config" value="parallel.conf.json"/>
@@ -202,4 +127,79 @@
       </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
     </classes>
   </test> <!-- atlas_iPhone6sTest(failed) -->
+  <test name="atlas_gNexus7Test(failed)" parallel="tests">
+    <parameter name="environment" value="gNexus7"/>
+    <parameter name="config" value="parallel.conf.json"/>
+    <classes>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
+        <methods>
+          <include name="main"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
+    </classes>
+  </test> <!-- atlas_gNexus7Test(failed) -->
+  <test name="atlas_iPadAir2Test(failed)" parallel="tests">
+    <parameter name="environment" value="iPadAir2"/>
+    <parameter name="config" value="parallel.conf.json"/>
+    <classes>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
+        <methods>
+          <include name="main"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
+    </classes>
+  </test> <!-- atlas_iPadAir2Test(failed) -->
+  <test name="atlas_sGalaxyNote3Test(failed)" parallel="tests">
+    <parameter name="environment" value="sGalaxyNote3"/>
+    <parameter name="config" value="parallel.conf.json"/>
+    <classes>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
+        <methods>
+          <include name="main"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
+    </classes>
+  </test> <!-- atlas_sGalaxyNote3Test(failed) -->
 </suite> <!-- Failed suite [Parallel] -->

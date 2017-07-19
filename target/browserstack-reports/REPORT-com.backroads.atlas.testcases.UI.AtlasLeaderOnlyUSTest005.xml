@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
+<testcase class="AtlasLeaderOnlyUSTest005" classname="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005" id="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main{0}" index="0" name="main" package="com.backroads.atlas.testcases.UI">
+<session/>
+</testcase>
+<testcase class="AtlasLeaderOnlyUSTest005" classname="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005" id="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main{1}" index="1" name="main" package="com.backroads.atlas.testcases.UI">
+<session>f3c3d7ad6259fe65cef27f6f385f9afbb4febce4</session>
+</testcase>
+<testcase class="AtlasLeaderOnlyUSTest005" classname="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005" id="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main{2}" index="2" name="main" package="com.backroads.atlas.testcases.UI">
+<session>e55c09bf8842ca709775fb28390338abd21a7943</session>
+</testcase>
+<testcase class="AtlasLeaderOnlyUSTest005" classname="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005" id="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main{4}" index="4" name="main" package="com.backroads.atlas.testcases.UI">
+<session>ee9d3a8069a4bb5d9e225d9bb3abed08cb1a5484</session>
+</testcase>
+<testcase class="AtlasLeaderOnlyUSTest005" classname="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005" id="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main{3}" index="3" name="main" package="com.backroads.atlas.testcases.UI">
+<session>bfedc0110dc7b486f9559e2d10c49ae9dbad5902</session>
+</testcase>
+<testcase class="AtlasLeaderOnlyUSTest005" classname="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005" id="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main{5}" index="5" name="main" package="com.backroads.atlas.testcases.UI">
+<session>17c2e9971eef35537dfab5910ccef4cc688b0fe2</session>
+</testcase>
+<testcase class="AtlasLeaderOnlyUSTest005" classname="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005" id="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main{6}" index="6" name="main" package="com.backroads.atlas.testcases.UI">
+<session>477a5255608e219765c6543b27fbd958274dbdfb</session>
+</testcase>
+</testsuite>
