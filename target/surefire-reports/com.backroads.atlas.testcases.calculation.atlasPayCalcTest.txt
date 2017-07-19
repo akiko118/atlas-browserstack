@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.backroads.atlas.testcases.calculation.atlasPayCalcTest
+-------------------------------------------------------------------------------
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.284 sec - in com.backroads.atlas.testcases.calculation.atlasPayCalcTest

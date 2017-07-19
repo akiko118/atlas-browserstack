@@ -1,0 +1,59 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "akikomichibayash3",
+  "key": "gZEH5xJq8EzsnjzPu1Jz",
+
+  "capabilities": {
+    "build": "atlas-browserstack",
+    "name": "parallel_atlasUI_bsTest",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+        
+    "Chrome": {
+       "browserName": "Chrome",
+       "browser_version": "59.0",
+       "os": "Windows",
+       "os_version": "7",
+       "resolution": "1024x768"
+     },
+ 
+    "iPhone6": {
+     "browserName": "iPhone",
+     "platform": "MAC",
+     "device": "iPhone 6"
+    },  
+    
+    "iPhone6s": {
+     "browserName": "iPhone",
+     "platform": "MAC",
+     "device": "iPhone 6s"
+    },  
+    
+    "gNexus7": { 
+     "browserName": "android",
+     "platform": "ANDROID",
+     "device": "Google Nexus 7"
+    },  
+    
+    "sGalaxyS7": { 
+     "browserName": "android",
+     "platform": "ANDROID",
+     "device": "Samsung Galaxy S7"
+    },  
+    
+    "iPadAir2": { 
+     "browserName": "iPad",
+     "platform": "MAC",
+     "device": "iPad Air 2"
+    },  
+    
+    "sGalaxyNote3": { 
+     "browserName": "android",
+     "platform": "ANDROID",
+     "device": "Samsung Galaxy Note 3"
+    }
+
+  }
+}

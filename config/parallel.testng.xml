@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" thread-count="6" parallel="tests">
+
+    <test name="atlas_ChromeTest">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="Chrome"/>
+        <classes>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+        </classes>
+    </test>
+
+    <test name="atlas_iPhone6Test">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="iPhone6"/>
+        <classes>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+        </classes>
+    </test>
+
+    <test name="atlas_iPhone6sTest">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="iPhone6s"/>
+        <classes>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+        </classes>
+    </test>
+
+    <test name="atlas_gNexus7Test">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="gNexus7"/>
+        <classes>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+        </classes>
+    </test>
+    <test name="atlas_sGalaxyS7Test">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="sGalaxyS7"/>
+        <classes>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+        </classes>
+    </test>
+
+    <test name="atlas_iPadAir2Test">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="iPadAir2"/>
+        <classes>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+        </classes>
+    </test>
+
+    <test name="atlas_sGalaxyNote3Test">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="sGalaxyNote3"/>
+        <classes>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+        </classes>
+    </test>
+
+</suite>

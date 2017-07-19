@@ -1,0 +1,11 @@
+
+Pinging fd-fp3.wg1.b.yahoo.com [206.190.36.105] with 32 bytes of data:
+Reply from 206.190.36.105: bytes=32 time=28ms TTL=53
+Reply from 206.190.36.105: bytes=32 time=28ms TTL=53
+Reply from 206.190.36.105: bytes=32 time=28ms TTL=53
+Reply from 206.190.36.105: bytes=32 time=28ms TTL=53
+
+Ping statistics for 206.190.36.105:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 28ms, Maximum = 28ms, Average = 28ms

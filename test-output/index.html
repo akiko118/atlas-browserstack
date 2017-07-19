@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Single">
+              <span class="suite-name border-failed">Single</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Single">
+                    <span>C:\atlas-browserstack\single.testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Single">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Single">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Single">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Single">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Single">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Single">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Single" class="hide-methods failed suite-Single"> (hide)</a> <!-- hide-methods failed suite-Single -->
+                      <a href="#" panel-name="suite-Single" class="show-methods failed suite-Single"> (show)</a> <!-- show-methods failed suite-Single -->
+                    </span>
+                    <div class="method-list-content failed suite-Single">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Single" title="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005" hash-for-method="main">main</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Single -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Single" class="panel Single">
+          <div class="suite-Single-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="main">
+                  </a> <!-- main -->
+                  <span class="method-name">main</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: Underlying driver does not implement advanced user interactions yet.
+Command duration or timeout: 187 milliseconds
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;BRPC444&apos;, ip: &apos;10.1.10.28&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{browserstack.tunnelIdentifier=, loggingPrefs={browser=SEVERE}, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), platform=ANDROID, browserstack.video.disableWaterMark=true, acceptSslCerts=true, browser=android, acceptSslCert=false, webStorageEnabled=true, browserName=android, takesScreenshot=true, javascriptEnabled=true, 64bit=false, browserstack.debug=true, applicationCacheEnabled=true, rotatable=true, os=android, browserstack.ie.noFlash=false, os_version=, mobile={browser=tablet, version=Google Nexus 7-4.1-1280x800}, handlesAlerts=true, version=16, browserConnectionEnabled=true, browserstack.video=true, webdriver.remote.sessionid=81b7cf941118115ceafea7b441279638245fbb44, orig_os=macmav, locationContextEnabled=true, device=Google Nexus 7, proxy_type=node}]
+Session ID: 81b7cf941118115ceafea7b441279638245fbb44
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at org.openqa.selenium.remote.RemoteExecuteMethod.execute(RemoteExecuteMethod.java:35)
+	at org.openqa.selenium.remote.RemoteMouse.mouseMove(RemoteMouse.java:89)
+	at org.openqa.selenium.interactions.MoveMouseAction.perform(MoveMouseAction.java:39)
+	at org.openqa.selenium.interactions.CompositeAction.perform(CompositeAction.java:50)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.BasePageObject.goToPayroll(BasePageObject.java:57)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main(AtlasLeaderOnlyUSTest005.java:32)
+Caused by: java.lang.UnsupportedOperationException: Underlying driver does not implement advanced user interactions yet.
+	at org.openqa.selenium.support.events.EventFiringWebDriver.getMouse(EventFiringWebDriver.java:298)
+	at org.openqa.selenium.remote.server.handler.interactions.MouseMoveToLocation.call(MouseMoveToLocation.java:46)
+	at org.openqa.selenium.remote.server.handler.interactions.MouseMoveToLocation.call(MouseMoveToLocation.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:305)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:137)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:169)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1076)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:569)
+	at java.lang.Thread.run(Thread.java:856)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Single-class-failed -->
+        </div> <!-- panel Single -->
+        <div panel-name="test-xml-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\atlas-browserstack\single.testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Single&quot;&gt;
+  &lt;test name=&quot;SingleTest&quot;&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;bs&quot;/&gt;
+    &lt;parameter name=&quot;config&quot; value=&quot;single.conf.json&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SingleTest --&gt;
+&lt;/suite&gt; &lt;!-- Single --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Single</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SingleTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Single</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Single</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Single');
+function tableData_Single() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'main')
+data.setCell(0, 2, 'com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005')
+data.setCell(0, 3, 34749);
+window.suiteTableData['Single']= { tableData: data, tableDiv: 'times-div-Single'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <div id="times-div-Single">
+              </div> <!-- times-div-Single -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Single</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Single" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(single.conf.json, bs)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">main</span>
+                <span class="method-start">41544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76309 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

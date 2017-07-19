@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Single]">
+  <test name="SingleTest(failed)">
+    <parameter name="environment" value="bs"/>
+    <parameter name="config" value="single.conf.json"/>
+    <classes>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
+        <methods>
+          <include name="main"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
+    </classes>
+  </test> <!-- SingleTest(failed) -->
+</suite> <!-- Failed suite [Single] -->
