@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024">
+<testcase class="AtlasLeaderOnlyUSTest024" classname="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024" id="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024.main{0}" index="0" name="main" package="com.backroads.atlas.testcases.UI">
+<session>cd6dedca111a769792c3f107e79f0750f5b9fbc5</session>
+</testcase>
+<testcase class="AtlasLeaderOnlyUSTest024" classname="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024" id="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024.main{1}" index="1" name="main" package="com.backroads.atlas.testcases.UI">
+<session>93791d7d1845178b7f99a3689bf24b12e30276f2</session>
+</testcase>
+</testsuite>
