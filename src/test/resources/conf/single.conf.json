@@ -10,12 +10,10 @@
   },
 
   "environments": {   
-   "bs": {
-     "browserName" : "Chrome",
-     "browser_version" : "59.0",
-     "os" : "Windows",
-     "os_version" : "7",
-     "resolution" : "1024x768"
+   "sGalaxyS7": { 
+     "browserName": "android",
+     "platform": "ANDROID",
+     "device": "Samsung Galaxy S7"
     } 
   }
 }

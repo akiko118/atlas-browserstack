@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.backroads.atlas_browserstack.BrowserStackTestNGTest;
@@ -33,17 +34,18 @@ public class AtlasUIRegressionTestSuite extends BrowserStackTestNGTest {
 //	private WebDriver driver;
 	
 	@BeforeClass
-	public void SetUp(){
+	@Parameters("os")
+	public void SetUp(String env){
 //  for loading locals
 //		System.setProperty("webdriver.chrome.driver", "C:\\webdriver\\chromedriver.exe");
 //		driver = new ChromeDriver();
 //		driver.manage().deleteAllCookies();new 
 		
-		driver.get(UrlBuilder.LOGIN);
+		driver.get(UrlBuilder.LOGIN_STAGE);
 //		driver.get("http://atlasstage.backroads.com/Login.aspx?ReturnUrl=%2f");
 		loginPage = new LogInPage(driver);
 		homePage = loginPage.loginToAtlas(partyId, password);
-		timesheetPage = homePage.goToPayroll();
+		timesheetPage = homePage.goToPayroll(env);
 		timesheetPage.toTimeSheetPage();
 		originalValues = timesheetPage.getActualColmnValues();
 	}

@@ -3,19 +3,19 @@
 <suite name="Single">
   <test name="SingleTest">
     <parameter name="config" value="single.conf.json"/> 
-    <parameter name="environment" value="bs"/>  
+    <parameter name="environment" value="sGalaxyS7"/>  
     <classes>
 <!--       <class name="com.backroads.payroll.testcases.AtlasUIRegressionTestSuite"/>   -->
       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
+<!--       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/> -->
+<!--       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/> -->
+<!--       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/> -->
+<!--       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/> -->
+<!--       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/> -->
+<!--       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/> -->
+<!--       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/> -->
+<!--       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/> -->
+<!--       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/> -->
     </classes>
   </test> 
 </suite> 

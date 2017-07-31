@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.backroads.atlas_browserstack.BrowserStackTestNGTest;
@@ -23,16 +24,21 @@ public class AtlasLeaderOnlyUSTest007 extends BrowserStackTestNGTest{
 
 	private String partyId = "1914832"; //Casey Carr
 
-
 	@Test
-	public void main() throws Exception{
+	@Parameters("os")
+	public void main(String env) throws Exception{
 		driver.get(UrlBuilder.LOGIN_DEV);
 		loginPage = new LogInPage(driver);
 		homePage = loginPage.loginToAtlas(partyId, password);
-		timesheetPage = homePage.goToPayroll();
+		timesheetPage = homePage.goToPayroll(env);
 		timesheetPage.toTimeSheetPage();
 		
-		Assert.assertEquals(timesheetPage.getPayPeriodLabel(), PageContent.PAY_PERIOD_LABEL);
+		if (env.equals("android")){
+			Assert.assertEquals(timesheetPage.getPayPeriodLabelWithXPath(), PageContent.PAY_PERIOD_LABEL);			
+		} else {
+			Assert.assertEquals(timesheetPage.getPayPeriodLabel(), PageContent.PAY_PERIOD_LABEL);
+		}
+				
 		Assert.assertEquals(timesheetPage.getPayPeriod(), PageContent.PAY_PERIOD);
 		Assert.assertEquals(timesheetPage.getPayDateLabel(), PageContent.PAY_DATE_LABEL);
 		Assert.assertEquals(timesheetPage.getPayDate(), PageContent.PAY_DATE);

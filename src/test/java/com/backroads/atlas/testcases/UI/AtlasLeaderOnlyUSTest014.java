@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.backroads.atlas_browserstack.BrowserStackTestNGTest;
@@ -28,11 +29,12 @@ public class AtlasLeaderOnlyUSTest014 extends BrowserStackTestNGTest{
 	private String [] originalValues;   
 	
 	@Test(dataProvider = "forAtlasLeaderOnlyUSTest014", dataProviderClass=DataProviderSource.class)
-	public void main(double d) throws Exception{
+	@Parameters("os")
+	public void main(double d, String env) throws Exception{
 		driver.get(UrlBuilder.LOGIN_DEV);
 		loginPage = new LogInPage(driver);
 		homePage = loginPage.loginToAtlas(partyId, password);
-		timesheetPage = homePage.goToPayroll();
+		timesheetPage = homePage.goToPayroll(env);
 		timesheetPage.toTimeSheetPage();
 		originalValues = timesheetPage.getActualColmnValues();
 

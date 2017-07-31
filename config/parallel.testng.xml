@@ -1,64 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Parallel" thread-count="6" parallel="tests">
+<suite name="Parallel" thread-count="7" parallel="tests">
 
     <test name="atlas_ChromeTest">
         <parameter name="config" value="parallel.conf.json"/>
-        <parameter name="environment" value="Chrome"/>
+        <parameter name="environment" value="Chrome"/>        
+        <parameter name="os" value="windows"/>
         <classes>
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/> -->
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/> -->
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
         </classes>
     </test>
 
     <test name="atlas_iPhone6Test">
         <parameter name="config" value="parallel.conf.json"/>
         <parameter name="environment" value="iPhone6"/>
+        <parameter name="os" value="ios"/>
         <classes>
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/> -->
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/> -->
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
         </classes>
     </test>
 
     <test name="atlas_iPhone6sTest">
         <parameter name="config" value="parallel.conf.json"/>
         <parameter name="environment" value="iPhone6s"/>
+        <parameter name="os" value="ios"/>
         <classes>
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/> -->
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/> -->
-<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/> -->
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
+            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
         </classes>
     </test>
 
-    <test name="atlas_gNexus7Test">
-        <parameter name="config" value="parallel.conf.json"/>
-        <parameter name="environment" value="gNexus7"/>
-        <classes>
+<!--     <test name="atlas_gNexus7Test"> -->
+<!--         <parameter name="config" value="parallel.conf.json"/> -->
+<!--         <parameter name="environment" value="gNexus7"/> -->
+<!--         <parameter name="os" value="android"/> -->
+<!--         <classes> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/> -->
-            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/> -->
@@ -67,14 +71,15 @@
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/> -->
-        </classes>
-    </test>
-    <test name="atlas_sGalaxyS7Test">
-        <parameter name="config" value="parallel.conf.json"/>
-        <parameter name="environment" value="sGalaxyS7"/>
-        <classes>
+<!--         </classes> -->
+<!--     </test> -->
+<!--     <test name="atlas_sGalaxyS7Test"> -->
+<!--         <parameter name="config" value="parallel.conf.json"/> -->
+<!--         <parameter name="environment" value="sGalaxyS7"/> -->
+<!--         <parameter name="os" value="android"/> -->
+<!--         <classes> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/> -->
-            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/> -->
@@ -83,15 +88,16 @@
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/> -->
-        </classes>
-    </test>
+<!--         </classes> -->
+<!--     </test> -->
 
     <test name="atlas_iPadAir2Test">
         <parameter name="config" value="parallel.conf.json"/>
         <parameter name="environment" value="iPadAir2"/>
+        <parameter name="os" value="ios"/>
         <classes>
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/> -->
-            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/> -->
@@ -103,12 +109,13 @@
         </classes>
     </test>
 
-    <test name="atlas_sGalaxyNote3Test">
-        <parameter name="config" value="parallel.conf.json"/>
-        <parameter name="environment" value="sGalaxyNote3"/>
-        <classes>
+<!--     <test name="atlas_sGalaxyNote3Test"> -->
+<!--         <parameter name="config" value="parallel.conf.json"/> -->
+<!--         <parameter name="environment" value="sGalaxyNote3"/> -->
+<!--         <parameter name="os" value="android"/> -->
+<!--         <classes> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/> -->
-            <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+<!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/> -->
@@ -117,7 +124,7 @@
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/> -->
 <!--             <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/> -->
-        </classes>
-    </test>
+<!--         </classes> -->
+<!--     </test> -->
 
 </suite>

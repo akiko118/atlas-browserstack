@@ -9,6 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.backroads.atlas_browserstack.BrowserStackTestNGTest;
@@ -33,12 +34,13 @@ public class AtlasUIRegressionTestSuite2 extends BrowserStackTestNGTest {
 //	private WebDriver driver;
 	
 	@BeforeClass
-	public void SetUp(){
+	@Parameters("os")
+	public void SetUp(String env){
 //		driver.get(UrlBuilder.LOGIN);
 		driver.get("http://atlasstage.backroads.com/Login.aspx?ReturnUrl=%2f");
 		loginPage = new LogInPage(driver);
 		homePage = loginPage.loginToAtlas(partyId, password);
-		timesheetPage = homePage.goToPayroll();
+		timesheetPage = homePage.goToPayroll(env);
 		timesheetPage.toTimeSheetPage();
 		originalValues = timesheetPage.getActualColmnValues();
 	}

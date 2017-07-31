@@ -47,11 +47,18 @@ public class TimesheetPage extends BasePageObject{
 	WebElement termsWindowHeader;
 	@FindBy(css = "body > ol")
 	WebElement termsWindowText;
-	@FindBy(css = "#frmPayroll > div > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(1)")
+//	@FindBy(css = "#frmPayroll > div > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(1)")
+	@FindBy(css = "#frmPayroll > div:nth-child(25) > table > tbody > tr:nth-child(4) > td > table > tbody > tr:nth-child(1) > td:nth-child(1) > b")
 	WebElement payPeriodLabel;
-    @FindBy(css = "#frmPayroll > div > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(2)")
+	
+	@FindBy(xpath = "//*[@id=\"frmPayroll\"]/div[2]/table/tbody/tr[4]/td/table/tbody/tr[1]/td[1]/b")
+	WebElement payPariodLabelXpath;
+	
+//    @FindBy(css = "#frmPayroll > div > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(2)")
+    @FindBy(css = "#frmPayroll > div:nth-child(25) > table > tbody > tr:nth-child(4) > td > table > tbody > tr:nth-child(1) > td:nth-child(2)")
     WebElement payPeriod;
-    @FindBy(css = "#frmPayroll > div > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td:nth-child(1)")
+//    @FindBy(css = "#frmPayroll > div > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td:nth-child(1)")
+    @FindBy(css = "#frmPayroll > div:nth-child(25) > table > tbody > tr:nth-child(4) > td > table > tbody > tr:nth-child(2) > td:nth-child(1) > b")
     WebElement payDateLabel;
     @FindBy(id = "lblPayDate")
     WebElement payDate;
@@ -71,12 +78,13 @@ public class TimesheetPage extends BasePageObject{
 	public void toTimeSheetPage (){
 		wait.until(ExpectedConditions.elementToBeClickable(toPayrollPageBtn));
 		if (driver.getCurrentUrl().equals(UrlBuilder.PAYROLL_DELINQUENT_DEV)){
+//			wait.until(ExpectedConditions.elementToBeClickable(toPayrollPageBtn));
 			toPayrollPageBtn.click();
 		}		
 	}
 	
 	public void clickTermsLink(){
-		this.wait.until(ExpectedConditions.elementToBeClickable(termsLink));
+		wait.until(ExpectedConditions.elementToBeClickable(termsLink));
 		termsLink.click();
 	}
 	
@@ -123,6 +131,7 @@ public class TimesheetPage extends BasePageObject{
 	
 	
 	public <E> List<WebElement> getLeaderTableHeaderTexts(){
+		wait.until(ExpectedConditions.visibilityOf(lTableColHeader));
 		return lTableColHeader.findElements(By.tagName("th"));		
 	}
 	
@@ -131,18 +140,27 @@ public class TimesheetPage extends BasePageObject{
 	}
 	
 	public String getPayPeriod(){
+		wait.until(ExpectedConditions.visibilityOf(payPeriod));
 		return payPeriod.getText();
 	}
 	
 	public String getPayDate(){
+		wait.until(ExpectedConditions.visibilityOf(payDate));
 		return payDate.getText();
 	}
 	
 	public String getPayPeriodLabel(){
+		wait.until(ExpectedConditions.visibilityOf(payPeriodLabel));
 		return payPeriodLabel.getText();
 	}
 	
+	public String getPayPeriodLabelWithXPath(){
+		wait.until(ExpectedConditions.visibilityOf(payPariodLabelXpath));
+		return payPariodLabelXpath.getText();
+	}
+	
 	public String getPayDateLabel(){
+		wait.until(ExpectedConditions.visibilityOf(payDateLabel));
 		return payDateLabel.getText();
 	}
 	

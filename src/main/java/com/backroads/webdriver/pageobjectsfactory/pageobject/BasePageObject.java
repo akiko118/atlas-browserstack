@@ -12,7 +12,7 @@ public class BasePageObject {
 	  public WebDriver driver;
 	  public WebDriverWait wait;
 	  public Actions builder;
-	  protected int timeOut = 20;
+	  protected int timeOut = 60;
 	 // protected UrlBuilder ub;
 	 // protected String env;
 	 
@@ -52,11 +52,20 @@ public class BasePageObject {
 	    PageFactory.initElements(driver, this);
 	  }
 	  
-	  public TimesheetPage goToPayroll(){
-		 wait.until(ExpectedConditions.elementToBeClickable(payrollInfo));
-		 builder.moveToElement(payrollInfo).moveToElement(currentPayroll2).click().build().perform();
-		 return new TimesheetPage(driver);
-	  }
+	  public TimesheetPage goToPayroll(String env){
+		System.out.println(env);  
+		// this way kind of works with android
+		if (env.toLowerCase().equals("windows") || env.toLowerCase().equals("ios")){
+			wait.until(ExpectedConditions.elementToBeClickable(payrollInfo));
+		    builder.moveToElement(payrollInfo).moveToElement(currentPayroll2).click().build().perform();
+		} else {
+			wait.until(ExpectedConditions.elementToBeClickable(payrollInfo));
+		    payrollInfo.click();
+		    wait.until(ExpectedConditions.elementToBeClickable(currentPayroll2));
+		    currentPayroll2.click();
+		} 
+		return new TimesheetPage(driver);
+	 }
 	  
 	  
 }

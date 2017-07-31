@@ -1,90 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Single]">
-  <parameter name="environment" value="bs"/>
+  <parameter name="environment" value="sGalaxyS7"/>
   <parameter name="config" value="single.conf.json"/>
   <test name="SingleTest">
-    <parameter name="environment" value="bs"/>
+    <parameter name="environment" value="sGalaxyS7"/>
     <parameter name="config" value="single.conf.json"/>
     <classes>
       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
     </classes>
   </test> <!-- SingleTest -->
   <test name="SingleTest(failed)">
-    <parameter name="environment" value="bs"/>
+    <parameter name="environment" value="sGalaxyS7"/>
     <parameter name="config" value="single.conf.json"/>
     <classes>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014">
-        <methods>
-          <include name="main" invocation-numbers="0 1"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014 -->
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular -->
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017 -->
       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
         <methods>
+          <include name="main"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner -->
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009 -->
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024 -->
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007">
-        <methods>
-          <include name="tearDown"/>
-          <include name="main"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007 -->
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008">
-        <methods>
-          <include name="main"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008 -->
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012">
-        <methods>
-          <include name="main"/>
-        </methods>
-      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012 -->
     </classes>
   </test> <!-- SingleTest(failed) -->
 </suite> <!-- Failed suite [Single] -->

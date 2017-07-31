@@ -10,8 +10,8 @@ public class PageContent {
 	//For AtlasLeaderOnlyUSTest007()
 	public static final String PAY_PERIOD_LABEL = "Pay Period:";
 	public static final String PAY_DATE_LABEL = "Pay Date:";	
-	public static final String PAY_PERIOD = "  3/16/2017  to  3/31/2017";
-	public static final String PAY_DATE = "4/7/2017";
+	public static final String PAY_PERIOD = "  7/16/2017  to  7/31/2017";
+	public static final String PAY_DATE = "8/7/2017";
 	
 	//For AtlasLeaderOnlyUSTest008()
 	public static final String TERMS_HEADER = "Atlas Payroll Terms";
