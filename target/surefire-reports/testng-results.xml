@@ -1,17 +1,711 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" total="2" passed="0">
+<testng-results skipped="0" failed="19" total="30" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel" duration-ms="69488" started-at="2017-07-28T22:36:55Z" finished-at="2017-07-28T22:38:04Z">
+  <suite name="Parallel" duration-ms="1093574" started-at="2017-07-31T22:25:45Z" finished-at="2017-07-31T22:43:58Z">
     <groups>
     </groups>
-    <test name="atlas_iPadAir2Test" duration-ms="3" started-at="2017-07-28T22:36:55Z" finished-at="2017-07-28T22:36:55Z">
+    <test name="atlas_iPadAir2Test" duration-ms="3" started-at="2017-07-31T22:25:45Z" finished-at="2017-07-31T22:25:45Z">
     </test> <!-- atlas_iPadAir2Test -->
-    <test name="atlas_iPhone6sTest" duration-ms="3" started-at="2017-07-28T22:36:55Z" finished-at="2017-07-28T22:36:55Z">
-    </test> <!-- atlas_iPhone6sTest -->
-    <test name="atlas_ChromeTest" duration-ms="30409" started-at="2017-07-28T22:36:55Z" finished-at="2017-07-28T22:37:25Z">
+    <test name="atlas_iPhone6sTest" duration-ms="969206" started-at="2017-07-31T22:25:45Z" finished-at="2017-07-31T22:41:54Z">
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular@2344fc66]" name="setUp" is-config="true" duration-ms="66024" started-at="2017-07-31T15:36:52Z" finished-at="2017-07-31T15:37:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular@2344fc66]" name="main" duration-ms="6585" started-at="2017-07-31T15:37:58Z" finished-at="2017-07-31T15:38:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 55 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [71C5E511-E11C-4524-AC17-CA50A08D41E9], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [71C5E511-E11C-4524-AC17-CA50A08D41E9], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
+Session ID: f403f78265b7635fda5beec995293d0df70830b6
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 55 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [71C5E511-E11C-4524-AC17-CA50A08D41E9], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [71C5E511-E11C-4524-AC17-CA50A08D41E9], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
+Session ID: f403f78265b7635fda5beec995293d0df70830b6
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.findElements(Unknown Source)
+	at com.backroads.webdriver.common.util.TableHandler.getColumnsAsList(TableHandler.java:38)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.isDayColRepresentExpHoursColmn(TimesheetPage.java:186)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular.main(AtlasLeaderOnlyUSTest011_Regular.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular@2344fc66]" name="tearDown" is-config="true" duration-ms="27771" started-at="2017-07-31T15:38:04Z" finished-at="2017-07-31T15:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014">
+        <test-method status="FAIL" signature="main(double, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014@5afa04c]" name="main" duration-ms="1" started-at="2017-07-31T15:38:32Z" data-provider="forAtlasLeaderOnlyUSTest014" finished-at="2017-07-31T15:38:32Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+The data provider is trying to pass 1 parameters but the method com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014#main takes 2 and TestNG is unable in inject a suitable object]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+The data provider is trying to pass 1 parameters but the method com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014#main takes 2 and TestNG is unable in inject a suitable object
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1253)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1122)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1249)
+	... 13 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024@6a024a67]" name="setUp" is-config="true" duration-ms="66951" started-at="2017-07-31T15:40:14Z" finished-at="2017-07-31T15:41:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024@6a024a67]" name="main" duration-ms="6516" started-at="2017-07-31T15:41:21Z" finished-at="2017-07-31T15:41:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [AE611014-A7F5-4CAA-9A7D-C678D6C32785], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [AE611014-A7F5-4CAA-9A7D-C678D6C32785], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
+Session ID: e0d5ede3316cfed87668436509e21ae68cb65348
+*** Element info: {Using=css selector, value=#GridViewOther > tbody > tr:nth-child(1)}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [AE611014-A7F5-4CAA-9A7D-C678D6C32785], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [AE611014-A7F5-4CAA-9A7D-C678D6C32785], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
+Session ID: e0d5ede3316cfed87668436509e21ae68cb65348
+*** Element info: {Using=css selector, value=#GridViewOther > tbody > tr:nth-child(1)}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.findElements(Unknown Source)
+	at com.backroads.webdriver.common.util.TableHandler.getHiddenColRemovedList(TableHandler.java:14)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.getOtherActHeaderTexts(TimesheetPage.java:139)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024.main(AtlasLeaderOnlyUSTest024.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024@6a024a67]" name="tearDown" is-config="true" duration-ms="26716" started-at="2017-07-31T15:41:27Z" finished-at="2017-07-31T15:41:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012">
+        <test-method status="FAIL" signature="main([Ljava.lang.String;, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012@458ad742]" name="main" duration-ms="2" started-at="2017-07-31T15:38:32Z" data-provider="forAtlasLeaderOnlyUSTest012_13" finished-at="2017-07-31T15:38:32Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+The data provider is trying to pass 11 parameters but the method com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012#main takes 2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+The data provider is trying to pass 11 parameters but the method com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012#main takes 2
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1229)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1122)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008@5056dfcb]" name="setUp" is-config="true" duration-ms="131378" started-at="2017-07-31T15:29:20Z" finished-at="2017-07-31T15:31:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008@5056dfcb]" name="main" duration-ms="12799" started-at="2017-07-31T15:31:31Z" finished-at="2017-07-31T15:31:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [E1969FD4-93B0-4B54-A0CA-1C1B168A9827], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [E1969FD4-93B0-4B54-A0CA-1C1B168A9827], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
+Session ID: 8096fd7f5494c7d73b2aee0d7119d0f12ad4084b
+*** Element info: {Using=css selector, value=body > h1}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [E1969FD4-93B0-4B54-A0CA-1C1B168A9827], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [E1969FD4-93B0-4B54-A0CA-1C1B168A9827], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
+Session ID: 8096fd7f5494c7d73b2aee0d7119d0f12ad4084b
+*** Element info: {Using=css selector, value=body > h1}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.getText(Unknown Source)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.getTermsWindowTextsFromWindow(TimesheetPage.java:123)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008.main(AtlasLeaderOnlyUSTest008.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008@5056dfcb]" name="tearDown" is-config="true" duration-ms="28147" started-at="2017-07-31T15:31:44Z" finished-at="2017-07-31T15:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007@32e6e9c3]" name="setUp" is-config="true" duration-ms="68662" started-at="2017-07-31T15:27:34Z" finished-at="2017-07-31T15:28:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007@32e6e9c3]" name="main" duration-ms="10144" started-at="2017-07-31T15:28:43Z" finished-at="2017-07-31T15:28:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007@32e6e9c3]" name="tearDown" is-config="true" duration-ms="26603" started-at="2017-07-31T15:28:53Z" finished-at="2017-07-31T15:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017@6ea12c19]" name="setUp" is-config="true" duration-ms="67448" started-at="2017-07-31T15:38:32Z" finished-at="2017-07-31T15:39:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017@6ea12c19]" name="main" duration-ms="6605" started-at="2017-07-31T15:39:40Z" finished-at="2017-07-31T15:39:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 98 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [2AB8EC54-3A55-424B-B648-B2CC0E2CA58B], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [2AB8EC54-3A55-424B-B648-B2CC0E2CA58B], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
+Session ID: af419931a7039676ea6b1969d66059c69dd7176a
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 98 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [2AB8EC54-3A55-424B-B648-B2CC0E2CA58B], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [2AB8EC54-3A55-424B-B648-B2CC0E2CA58B], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
+Session ID: af419931a7039676ea6b1969d66059c69dd7176a
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.findElements(Unknown Source)
+	at com.backroads.webdriver.common.util.TableHandler.getColumnsAsList(TableHandler.java:38)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.isRadioWorking(TimesheetPage.java:234)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017.main(AtlasLeaderOnlyUSTest017.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017@6ea12c19]" name="tearDown" is-config="true" duration-ms="27776" started-at="2017-07-31T15:39:46Z" finished-at="2017-07-31T15:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017 -->
       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@6b2fad11]" name="setUp" is-config="true" duration-ms="4956" started-at="2017-07-28T15:36:55Z" finished-at="2017-07-28T15:37:00Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@4590c9c3]" name="setUp" is-config="true" duration-ms="69219" started-at="2017-07-31T15:25:45Z" finished-at="2017-07-31T15:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@4590c9c3]" name="main" duration-ms="12685" started-at="2017-07-31T15:26:54Z" finished-at="2017-07-31T15:27:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@4590c9c3]" name="tearDown" is-config="true" duration-ms="27427" started-at="2017-07-31T15:27:07Z" finished-at="2017-07-31T15:27:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner@2669b199]" name="setUp" is-config="true" duration-ms="69040" started-at="2017-07-31T15:35:12Z" finished-at="2017-07-31T15:36:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner@2669b199]" name="main" duration-ms="6584" started-at="2017-07-31T15:36:21Z" finished-at="2017-07-31T15:36:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [224BA81B-8DFC-4BFC-A76B-88E508C4168E], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [224BA81B-8DFC-4BFC-A76B-88E508C4168E], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
+Session ID: 9f0181330e6c4707421a6e012c294c37a8c52881
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [224BA81B-8DFC-4BFC-A76B-88E508C4168E], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [224BA81B-8DFC-4BFC-A76B-88E508C4168E], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
+Session ID: 9f0181330e6c4707421a6e012c294c37a8c52881
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.findElements(Unknown Source)
+	at com.backroads.webdriver.common.util.TableHandler.getColumnsAsList(TableHandler.java:38)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.isDayColRepresentExpHoursColmn(TimesheetPage.java:186)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner.main(AtlasLeaderOnlyUSTest011_Dinner.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner@2669b199]" name="tearDown" is-config="true" duration-ms="24204" started-at="2017-07-31T15:36:28Z" finished-at="2017-07-31T15:36:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009@6574b225]" name="setUp" is-config="true" duration-ms="147045" started-at="2017-07-31T15:32:12Z" finished-at="2017-07-31T15:34:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6s]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009@6574b225]" name="main" duration-ms="6533" started-at="2017-07-31T15:34:39Z" finished-at="2017-07-31T15:34:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [1176F80A-B8F9-4F5B-B9FE-E5051B2F69BC], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [1176F80A-B8F9-4F5B-B9FE-E5051B2F69BC], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
+Session ID: 3858df1cea6a1e80d8467de6df22ada3fbbb2aae
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [1176F80A-B8F9-4F5B-B9FE-E5051B2F69BC], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6s (9.1) [1176F80A-B8F9-4F5B-B9FE-E5051B2F69BC], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=9.1, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6S-9.1"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macelc, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6S, proxy_type=node}]
+Session ID: 3858df1cea6a1e80d8467de6df22ada3fbbb2aae
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.findElements(Unknown Source)
+	at com.backroads.webdriver.common.util.TableHandler.getColumnsAsList(TableHandler.java:38)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.isLeaderActDatesAsc(TimesheetPage.java:168)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009.main(AtlasLeaderOnlyUSTest009.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009@6574b225]" name="tearDown" is-config="true" duration-ms="26305" started-at="2017-07-31T15:34:46Z" finished-at="2017-07-31T15:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009 -->
+    </test> <!-- atlas_iPhone6sTest -->
+    <test name="atlas_ChromeTest" duration-ms="1049520" started-at="2017-07-31T22:25:45Z" finished-at="2017-07-31T22:43:14Z">
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular@2d3fcdbd]" name="setUp" is-config="true" duration-ms="47747" started-at="2017-07-31T15:36:08Z" finished-at="2017-07-31T15:36:55Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +721,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@6b2fad11]" name="main" duration-ms="11194" started-at="2017-07-28T15:37:00Z" finished-at="2017-07-28T15:37:11Z">
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular@2d3fcdbd]" name="main" duration-ms="14443" started-at="2017-07-31T15:36:55Z" finished-at="2017-07-31T15:37:10Z">
           <params>
             <param index="0">
               <value>
@@ -35,27 +729,162 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular@2d3fcdbd]" name="tearDown" is-config="true" duration-ms="14391" started-at="2017-07-31T15:37:10Z" finished-at="2017-07-31T15:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014">
+        <test-method status="FAIL" signature="main(double, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014@6537cf78]" name="main" duration-ms="1" started-at="2017-07-31T15:37:24Z" data-provider="forAtlasLeaderOnlyUSTest014" finished-at="2017-07-31T15:37:24Z">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Timed out after 10 seconds waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: txtPartyID'
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Windows\proxy\scoped_dir2496_8312}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.86, platform=WINDOWS, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=d0087041317960785a130c3418d96648f02b141e, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: d0087041317960785a130c3418d96648f02b141e]]>
+              <![CDATA[
+The data provider is trying to pass 1 parameters but the method com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014#main takes 2 and TestNG is unable in inject a suitable object]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: txtPartyID'
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Windows\proxy\scoped_dir2496_8312}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.86, platform=WINDOWS, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=d0087041317960785a130c3418d96648f02b141e, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: d0087041317960785a130c3418d96648f02b141e
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
-	at com.backroads.webdriver.pageobjectsfactory.pageobject.LogInPage.setPartyId(LogInPage.java:31)
-	at com.backroads.webdriver.pageobjectsfactory.pageobject.LogInPage.loginToAtlas(LogInPage.java:45)
-	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main(AtlasLeaderOnlyUSTest005.java:34)
+              <![CDATA[org.testng.TestNGException: 
+The data provider is trying to pass 1 parameters but the method com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014#main takes 2 and TestNG is unable in inject a suitable object
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1253)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1122)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1249)
+	... 13 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024@34b7bfc0]" name="setUp" is-config="true" duration-ms="121191" started-at="2017-07-31T15:40:52Z" finished-at="2017-07-31T15:42:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024@34b7bfc0]" name="main" duration-ms="7507" started-at="2017-07-31T15:42:53Z" finished-at="2017-07-31T15:43:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024@34b7bfc0]" name="tearDown" is-config="true" duration-ms="14238" started-at="2017-07-31T15:43:00Z" finished-at="2017-07-31T15:43:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012">
+        <test-method status="FAIL" signature="main([Ljava.lang.String;, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012@617c74e5]" name="main" duration-ms="6" started-at="2017-07-31T15:37:24Z" data-provider="forAtlasLeaderOnlyUSTest012_13" finished-at="2017-07-31T15:37:24Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+The data provider is trying to pass 11 parameters but the method com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012#main takes 2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+The data provider is trying to pass 11 parameters but the method com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012#main takes 2
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1229)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1122)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008@6615435c]" name="setUp" is-config="true" duration-ms="233199" started-at="2017-07-31T15:28:08Z" finished-at="2017-07-31T15:32:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008@6615435c]" name="main" duration-ms="6886" started-at="2017-07-31T15:32:02Z" finished-at="2017-07-31T15:32:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [I have reviewed my time records for the week/pay period noted. The time records accurately reflect the total hours worked in the work week, and, for work done in the State of California, for the date noted. For work outside of California, I understand that as long as the total time I worked for the week is accurate, I need not make adjustments that would otherwise cancel each other out in that workweek although I can if I want (e.g., add 1 hour to Wednesday and subtract 1 hour from Thursday).
+Where necessary to conform to the actual hours worked, I have adjusted the estimated times up or down to reflect those hours I actually worked.
+I have recorded all time worked, and I understand that it is against the policy of Backroads Utah to work off the clock; and I have not done so.
+I am familiar with Backroads Utah's meal and rest period policy. I have been provided meal and rest periods on a daily basis in this pay period that are consistent with that policy. I understand the procedure for reporting when I did not receive a meal or rest period, and I have utilized that procedure to report any such situation on any particular day.] but found [I have reviewed my time records for the week/pay period noted. The time records accurately reflect the total hours worked in the work week, and, for work done in the State of California, for the date noted. For work outside of California, I understand that as long as the total time I worked for the week is accurate, I need not make adjustments that would otherwise cancel each other out in that workweek although I can if I want (e.g., add 1 hour to Wednesday and subtract 1 hour from Thursday).
+Where necessary to conform to the actual hours worked, I have adjusted the estimated times up or down to reflect those hours I actually worked.
+I have recorded all time worked, and I understand that it is against the policy of Backroads Utah to work off the clock; and I have not done so.
+I am familiar with Backroads Utah’s meal and rest period policy. I have been provided meal and rest periods on a daily basis in this pay period that are consistent with that policy. I understand the procedure for reporting when I did not receive a meal or rest period, and I have utilized that procedure to report any such situation on any particular day.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [I have reviewed my time records for the week/pay period noted. The time records accurately reflect the total hours worked in the work week, and, for work done in the State of California, for the date noted. For work outside of California, I understand that as long as the total time I worked for the week is accurate, I need not make adjustments that would otherwise cancel each other out in that workweek although I can if I want (e.g., add 1 hour to Wednesday and subtract 1 hour from Thursday).
+Where necessary to conform to the actual hours worked, I have adjusted the estimated times up or down to reflect those hours I actually worked.
+I have recorded all time worked, and I understand that it is against the policy of Backroads Utah to work off the clock; and I have not done so.
+I am familiar with Backroads Utah's meal and rest period policy. I have been provided meal and rest periods on a daily basis in this pay period that are consistent with that policy. I understand the procedure for reporting when I did not receive a meal or rest period, and I have utilized that procedure to report any such situation on any particular day.] but found [I have reviewed my time records for the week/pay period noted. The time records accurately reflect the total hours worked in the work week, and, for work done in the State of California, for the date noted. For work outside of California, I understand that as long as the total time I worked for the week is accurate, I need not make adjustments that would otherwise cancel each other out in that workweek although I can if I want (e.g., add 1 hour to Wednesday and subtract 1 hour from Thursday).
+Where necessary to conform to the actual hours worked, I have adjusted the estimated times up or down to reflect those hours I actually worked.
+I have recorded all time worked, and I understand that it is against the policy of Backroads Utah to work off the clock; and I have not done so.
+I am familiar with Backroads Utah’s meal and rest period policy. I have been provided meal and rest periods on a daily basis in this pay period that are consistent with that policy. I understand the procedure for reporting when I did not receive a meal or rest period, and I have utilized that procedure to report any such situation on any particular day.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008.main(AtlasLeaderOnlyUSTest008.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -75,107 +904,187 @@ Session ID: d0087041317960785a130c3418d96648f02b141e
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"txtPartyID"}
-  (Session info: chrome=59.0.3071.86)
-  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: '207-254-57-131', ip: '207.254.57.131', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Windows\proxy\scoped_dir2496_8312}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: eeb99aa9a2ac51b6da8b657a23f166f6
-*** Element info: {Using=id, value=txtPartyID}
-Command duration or timeout: 317 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Windows\proxy\scoped_dir2496_8312}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.86, platform=WINDOWS, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=d0087041317960785a130c3418d96648f02b141e, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: d0087041317960785a130c3418d96648f02b141e
-*** Element info: {Using=id, value=txtPartyID}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy6.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
-	... 23 more
-Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
-Driver info: driver.version: RemoteWebDriver
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:138)
-	... 36 more
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"txtPartyID"}
-  (Session info: chrome=59.0.3071.86)
-  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 10 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
-System info: host: '207-254-57-131', ip: '207.254.57.131', os.name: 'windows', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_121'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Windows\proxy\scoped_dir2496_8312}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=59.0.3071.86, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: eeb99aa9a2ac51b6da8b657a23f166f6
-*** Element info: {Using=id, value=txtPartyID}
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
-Driver info: driver.version: EventFiringWebDriver
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:103)
-	at com.sun.proxy.$Proxy1.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
-	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:1)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@6b2fad11]" name="tearDown" is-config="true" duration-ms="14204" started-at="2017-07-28T15:37:11Z" finished-at="2017-07-28T15:37:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008@6615435c]" name="tearDown" is-config="true" duration-ms="14443" started-at="2017-07-31T15:32:09Z" finished-at="2017-07-31T15:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007@1936f0f5]" name="setUp" is-config="true" duration-ms="75117" started-at="2017-07-31T15:26:27Z" finished-at="2017-07-31T15:27:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007@1936f0f5]" name="main" duration-ms="8097" started-at="2017-07-31T15:27:42Z" finished-at="2017-07-31T15:27:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007@1936f0f5]" name="tearDown" is-config="true" duration-ms="18160" started-at="2017-07-31T15:27:50Z" finished-at="2017-07-31T15:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017@67b6d4ae]" name="setUp" is-config="true" duration-ms="172933" started-at="2017-07-31T15:37:24Z" finished-at="2017-07-31T15:40:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017@67b6d4ae]" name="main" duration-ms="19839" started-at="2017-07-31T15:40:17Z" finished-at="2017-07-31T15:40:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017@67b6d4ae]" name="tearDown" is-config="true" duration-ms="14474" started-at="2017-07-31T15:40:37Z" finished-at="2017-07-31T15:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner@3a03464]" name="setUp" is-config="true" duration-ms="156486" started-at="2017-07-31T15:32:49Z" finished-at="2017-07-31T15:35:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner@3a03464]" name="main" duration-ms="16587" started-at="2017-07-31T15:35:26Z" finished-at="2017-07-31T15:35:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner@3a03464]" name="tearDown" is-config="true" duration-ms="25305" started-at="2017-07-31T15:35:42Z" finished-at="2017-07-31T15:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@6b143ee9]" name="setUp" is-config="true" duration-ms="11374" started-at="2017-07-31T15:25:45Z" finished-at="2017-07-31T15:25:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@6b143ee9]" name="main" duration-ms="15082" started-at="2017-07-31T15:25:56Z" finished-at="2017-07-31T15:26:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@6b143ee9]" name="tearDown" is-config="true" duration-ms="15722" started-at="2017-07-31T15:26:11Z" finished-at="2017-07-31T15:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009@4909b8da]" name="setUp" is-config="true" duration-ms="3067" started-at="2017-07-31T15:32:23Z" finished-at="2017-07-31T15:32:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009@4909b8da]" name="main" duration-ms="8967" started-at="2017-07-31T15:32:26Z" finished-at="2017-07-31T15:32:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009@4909b8da]" name="tearDown" is-config="true" duration-ms="14241" started-at="2017-07-31T15:32:35Z" finished-at="2017-07-31T15:32:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009 -->
     </test> <!-- atlas_ChromeTest -->
-    <test name="atlas_iPhone6Test" duration-ms="69488" started-at="2017-07-28T22:36:55Z" finished-at="2017-07-28T22:38:04Z">
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@60addb54]" name="setUp" is-config="true" duration-ms="38000" started-at="2017-07-28T15:36:55Z" finished-at="2017-07-28T15:37:33Z">
+    <test name="atlas_iPhone6Test" duration-ms="1093574" started-at="2017-07-31T22:25:45Z" finished-at="2017-07-31T22:43:58Z">
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular@7ca48474]" name="setUp" is-config="true" duration-ms="272720" started-at="2017-07-31T15:34:41Z" finished-at="2017-07-31T15:39:13Z">
           <params>
             <param index="0">
               <value>
@@ -191,7 +1100,7 @@ Driver info: driver.version: EventFiringWebDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@60addb54]" name="main" duration-ms="11184" started-at="2017-07-28T15:37:33Z" finished-at="2017-07-28T15:37:44Z">
+        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular@7ca48474]" name="main" duration-ms="4336" started-at="2017-07-31T15:39:13Z" finished-at="2017-07-31T15:39:18Z">
           <params>
             <param index="0">
               <value>
@@ -199,27 +1108,44 @@ Driver info: driver.version: EventFiringWebDriver
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Timed out after 10 seconds waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: txtPartyID'
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 56 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), deviceName==iPhone 6 (8.3 Simulator) [4A5F3893-FADE-437D-A2F3-D0B5CCDFFE32], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), deviceName==iPhone 6 (8.3 Simulator) [4A5F3893-FADE-437D-A2F3-D0B5CCDFFE32], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
-Session ID: e5139a80fc983269f7ed724d07d499db7eac054c]]>
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [AF97AB4B-97BA-4F20-AE0D-2B2B124D0E15], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [AF97AB4B-97BA-4F20-AE0D-2B2B124D0E15], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
+Session ID: cee6ee4baf017af59b2d0f6124f404a5948dc558
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Timed out after 10 seconds waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: txtPartyID'
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 56 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), deviceName==iPhone 6 (8.3 Simulator) [4A5F3893-FADE-437D-A2F3-D0B5CCDFFE32], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), deviceName==iPhone 6 (8.3 Simulator) [4A5F3893-FADE-437D-A2F3-D0B5CCDFFE32], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
-Session ID: e5139a80fc983269f7ed724d07d499db7eac054c
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:261)
-	at com.backroads.webdriver.pageobjectsfactory.pageobject.LogInPage.setPartyId(LogInPage.java:31)
-	at com.backroads.webdriver.pageobjectsfactory.pageobject.LogInPage.loginToAtlas(LogInPage.java:45)
-	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005.main(AtlasLeaderOnlyUSTest005.java:34)
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [AF97AB4B-97BA-4F20-AE0D-2B2B124D0E15], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [AF97AB4B-97BA-4F20-AE0D-2B2B124D0E15], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
+Session ID: cee6ee4baf017af59b2d0f6124f404a5948dc558
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.findElements(Unknown Source)
+	at com.backroads.webdriver.common.util.TableHandler.getColumnsAsList(TableHandler.java:38)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.isDayColRepresentExpHoursColmn(TimesheetPage.java:186)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular.main(AtlasLeaderOnlyUSTest011_Regular.java:37)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -239,46 +1165,618 @@ Session ID: e5139a80fc983269f7ed724d07d499db7eac054c
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 61 milliseconds
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular@7ca48474]" name="tearDown" is-config="true" duration-ms="26573" started-at="2017-07-31T15:39:18Z" finished-at="2017-07-31T15:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014">
+        <test-method status="FAIL" signature="main(double, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014@59e84876]" name="main" duration-ms="0" started-at="2017-07-31T15:39:44Z" data-provider="forAtlasLeaderOnlyUSTest014" finished-at="2017-07-31T15:39:44Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+The data provider is trying to pass 1 parameters but the method com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014#main takes 2 and TestNG is unable in inject a suitable object]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+The data provider is trying to pass 1 parameters but the method com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014#main takes 2 and TestNG is unable in inject a suitable object
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1253)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1122)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 1
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1249)
+	... 13 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024@39fb3ab6]" name="setUp" is-config="true" duration-ms="40616" started-at="2017-07-31T15:42:49Z" finished-at="2017-07-31T15:43:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024@39fb3ab6]" name="main" duration-ms="3872" started-at="2017-07-31T15:43:30Z" finished-at="2017-07-31T15:43:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'BRPC444', ip: '10.1.10.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), deviceName==iPhone 6 (8.3 Simulator) [4A5F3893-FADE-437D-A2F3-D0B5CCDFFE32], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_131), deviceName==iPhone 6 (8.3 Simulator) [4A5F3893-FADE-437D-A2F3-D0B5CCDFFE32], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
-Session ID: e5139a80fc983269f7ed724d07d499db7eac054c
-*** Element info: {Using=id, value=txtPartyID}
-	at sun.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [A61D6166-F180-4BCF-9BBA-B70C751B6C95], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [A61D6166-F180-4BCF-9BBA-B70C751B6C95], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
+Session ID: 45d4949c9755dfb21ea6759d08f4cbd8c7dd2737
+*** Element info: {Using=css selector, value=#GridViewOther > tbody > tr:nth-child(1)}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 48 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [A61D6166-F180-4BCF-9BBA-B70C751B6C95], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [A61D6166-F180-4BCF-9BBA-B70C751B6C95], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
+Session ID: 45d4949c9755dfb21ea6759d08f4cbd8c7dd2737
+*** Element info: {Using=css selector, value=#GridViewOther > tbody > tr:nth-child(1)}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
-	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy6.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:238)
-	... 23 more
+	at com.sun.proxy.$Proxy6.findElements(Unknown Source)
+	at com.backroads.webdriver.common.util.TableHandler.getHiddenColRemovedList(TableHandler.java:14)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.getOtherActHeaderTexts(TimesheetPage.java:139)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024.main(AtlasLeaderOnlyUSTest024.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- main -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@60addb54]" name="tearDown" is-config="true" duration-ms="20288" started-at="2017-07-28T15:37:44Z" finished-at="2017-07-28T15:38:04Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024@39fb3ab6]" name="tearDown" is-config="true" duration-ms="24586" started-at="2017-07-31T15:43:34Z" finished-at="2017-07-31T15:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012">
+        <test-method status="FAIL" signature="main([Ljava.lang.String;, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012@337d0578]" name="main" duration-ms="0" started-at="2017-07-31T15:39:44Z" data-provider="forAtlasLeaderOnlyUSTest012_13" finished-at="2017-07-31T15:39:44Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+The data provider is trying to pass 11 parameters but the method com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012#main takes 2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+The data provider is trying to pass 11 parameters but the method com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012#main takes 2
+	at org.testng.internal.Invoker.injectParameters(Invoker.java:1229)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1122)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008@7f560810]" name="setUp" is-config="true" duration-ms="49682" started-at="2017-07-31T15:30:33Z" finished-at="2017-07-31T15:31:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008@7f560810]" name="main" duration-ms="10338" started-at="2017-07-31T15:31:23Z" finished-at="2017-07-31T15:31:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [14312C91-A497-469E-89E4-3DEEA2FD7159], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [14312C91-A497-469E-89E4-3DEEA2FD7159], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
+Session ID: e8d711ce86ba89c1127db2dd1cc87be37ea4b481
+*** Element info: {Using=css selector, value=body > h1}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [14312C91-A497-469E-89E4-3DEEA2FD7159], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [14312C91-A497-469E-89E4-3DEEA2FD7159], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
+Session ID: e8d711ce86ba89c1127db2dd1cc87be37ea4b481
+*** Element info: {Using=css selector, value=body > h1}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.getText(Unknown Source)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.getTermsWindowTextsFromWindow(TimesheetPage.java:123)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008.main(AtlasLeaderOnlyUSTest008.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008@7f560810]" name="tearDown" is-config="true" duration-ms="25248" started-at="2017-07-31T15:31:33Z" finished-at="2017-07-31T15:31:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007@153f5a29]" name="setUp" is-config="true" duration-ms="183121" started-at="2017-07-31T15:26:56Z" finished-at="2017-07-31T15:29:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007@153f5a29]" name="main" duration-ms="7756" started-at="2017-07-31T15:29:59Z" finished-at="2017-07-31T15:30:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007@153f5a29]" name="tearDown" is-config="true" duration-ms="26308" started-at="2017-07-31T15:30:07Z" finished-at="2017-07-31T15:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017@61a485d2]" name="setUp" is-config="true" duration-ms="156920" started-at="2017-07-31T15:39:44Z" finished-at="2017-07-31T15:42:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017@61a485d2]" name="main" duration-ms="3807" started-at="2017-07-31T15:42:21Z" finished-at="2017-07-31T15:42:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [204E6999-D7DF-460E-AC12-D1F88FBB51A5], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [204E6999-D7DF-460E-AC12-D1F88FBB51A5], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
+Session ID: a931bbeaa63bd9b42e370f04cf0d29f26333cf74
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 63 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [204E6999-D7DF-460E-AC12-D1F88FBB51A5], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [204E6999-D7DF-460E-AC12-D1F88FBB51A5], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
+Session ID: a931bbeaa63bd9b42e370f04cf0d29f26333cf74
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.findElements(Unknown Source)
+	at com.backroads.webdriver.common.util.TableHandler.getColumnsAsList(TableHandler.java:38)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.isRadioWorking(TimesheetPage.java:234)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017.main(AtlasLeaderOnlyUSTest017.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017@61a485d2]" name="tearDown" is-config="true" duration-ms="24448" started-at="2017-07-31T15:42:25Z" finished-at="2017-07-31T15:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@26f67b76]" name="setUp" is-config="true" duration-ms="41474" started-at="2017-07-31T15:25:45Z" finished-at="2017-07-31T15:26:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@26f67b76]" name="main" duration-ms="8341" started-at="2017-07-31T15:26:26Z" finished-at="2017-07-31T15:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005@26f67b76]" name="tearDown" is-config="true" duration-ms="21401" started-at="2017-07-31T15:26:35Z" finished-at="2017-07-31T15:26:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner@13a57a3b]" name="setUp" is-config="true" duration-ms="40386" started-at="2017-07-31T15:33:31Z" finished-at="2017-07-31T15:34:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner@13a57a3b]" name="main" duration-ms="3900" started-at="2017-07-31T15:34:11Z" finished-at="2017-07-31T15:34:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [D7BC1B4A-A9C0-425C-9156-CBA3701FFB4A], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [D7BC1B4A-A9C0-425C-9156-CBA3701FFB4A], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
+Session ID: 20bc32ab56b35a34dc27a9e8dbd6a9a33bd8fb13
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 52 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [D7BC1B4A-A9C0-425C-9156-CBA3701FFB4A], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [D7BC1B4A-A9C0-425C-9156-CBA3701FFB4A], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
+Session ID: 20bc32ab56b35a34dc27a9e8dbd6a9a33bd8fb13
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.findElements(Unknown Source)
+	at com.backroads.webdriver.common.util.TableHandler.getColumnsAsList(TableHandler.java:38)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.isDayColRepresentExpHoursColmn(TimesheetPage.java:186)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner.main(AtlasLeaderOnlyUSTest011_Dinner.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner@13a57a3b]" name="tearDown" is-config="true" duration-ms="25268" started-at="2017-07-31T15:34:15Z" finished-at="2017-07-31T15:34:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009@69d9c55]" name="setUp" is-config="true" duration-ms="64532" started-at="2017-07-31T15:31:59Z" finished-at="2017-07-31T15:33:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parallel.conf.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="main(java.lang.String)[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009@69d9c55]" name="main" duration-ms="3885" started-at="2017-07-31T15:33:03Z" finished-at="2017-07-31T15:33:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ios]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 50 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [9C93DC61-8C50-4FF5-B9C6-F0AA82572C71], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [9C93DC61-8C50-4FF5-B9C6-F0AA82572C71], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
+Session ID: 8fcfcaf397e364577386c63dd42290337bd41959
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 50 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'BRPC444', ip: '10.1.10.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{noReset=true, safari=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [9C93DC61-8C50-4FF5-B9C6-F0AA82572C71], platform=MAC, browserstack.video.disableWaterMark=true, desired={noReset=true, browserstack.tunnelIdentifier=, browserstack.asyncStop=true, language=Apache-HttpClient/4.5.1 (Java/1.8.0_111), deviceName==iPhone 6 (8.3 Simulator) [9C93DC61-8C50-4FF5-B9C6-F0AA82572C71], platform=MAC, browserstack.video.disableWaterMark=true, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, acceptSslCert=false, browserName=safari, platformName=iOS, 64bit=false, browserstack.debug=true, orientation=portrait, browserstack.ie.noFlash=false, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}, acceptSslCerts=false, newCommandTimeout=300, browser=iphone, platformVersion=8.3, webStorageEnabled=false, acceptSslCert=false, browserName=safari, takesScreenshot=true, javascriptEnabled=true, platformName=iOS, 64bit=false, browserstack.debug=true, networkConnectionEnabled=false, orientation=portrait, browserstack.ie.noFlash=false, warnings={}, os_version=, mobile={"browser":"mobile","version":"iPhone 6-8.3"}, databaseEnabled=false, version=, browserstack.video=true, browserstack.ci_plugin=jenkins, safariIgnoreFraudWarning=true, orig_os=macyos, realMobile=false, locationContextEnabled=false, deviceOrientation=PORTRAIT, device=iPhone 6, proxy_type=node}]
+Session ID: 8fcfcaf397e364577386c63dd42290337bd41959
+*** Element info: {Using=css selector, value=#grdPayroll > tbody}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:492)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy6.findElements(Unknown Source)
+	at com.backroads.webdriver.common.util.TableHandler.getColumnsAsList(TableHandler.java:38)
+	at com.backroads.webdriver.pageobjectsfactory.pageobject.TimesheetPage.isLeaderActDatesAsc(TimesheetPage.java:168)
+	at com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009.main(AtlasLeaderOnlyUSTest009.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:400)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009@69d9c55]" name="tearDown" is-config="true" duration-ms="24006" started-at="2017-07-31T15:33:07Z" finished-at="2017-07-31T15:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009 -->
     </test> <!-- atlas_iPhone6Test -->
   </suite> <!-- Parallel -->
 </testng-results>

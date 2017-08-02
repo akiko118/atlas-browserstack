@@ -28,8 +28,8 @@ public class AtlasLeaderOnlyUSTest005 extends BrowserStackTestNGTest{
 	@Test
 	@Parameters("os")
 	public void main(String env) throws Exception{
-		driver.get(UrlBuilder.LOGIN_DEV);
-//		driver.get(UrlBuilder.LOGIN_STAGE);
+//		driver.get(UrlBuilder.LOGIN_DEV);
+		driver.get(UrlBuilder.LOGIN_STAGE);
 		loginPage = new LogInPage(driver);
 		homePage = loginPage.loginToAtlas(partyId, password);
 		timesheetPage = homePage.goToPayroll(env);

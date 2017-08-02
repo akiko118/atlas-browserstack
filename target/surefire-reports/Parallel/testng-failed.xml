@@ -10,6 +10,15 @@
     <parameter name="config" value="parallel.conf.json"/>
     <classes>
       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
     </classes>
   </test> <!-- atlas_ChromeTest -->
   <test name="atlas_iPhone6Test">
@@ -18,32 +27,238 @@
     <parameter name="config" value="parallel.conf.json"/>
     <classes>
       <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
     </classes>
   </test> <!-- atlas_iPhone6Test -->
   <test name="atlas_iPhone6sTest">
     <parameter name="environment" value="iPhone6s"/>
     <parameter name="os" value="ios"/>
     <parameter name="config" value="parallel.conf.json"/>
+    <classes>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017"/>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024"/>
+    </classes>
   </test> <!-- atlas_iPhone6sTest -->
   <test name="atlas_iPadAir2Test">
     <parameter name="environment" value="iPadAir2"/>
     <parameter name="os" value="ios"/>
     <parameter name="config" value="parallel.conf.json"/>
   </test> <!-- atlas_iPadAir2Test -->
+  <test name="atlas_iPhone6sTest(failed)" parallel="tests">
+    <parameter name="environment" value="iPhone6s"/>
+    <parameter name="os" value="ios"/>
+    <parameter name="config" value="parallel.conf.json"/>
+    <classes>
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008">
+        <methods>
+          <include name="main" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017">
+        <methods>
+          <include name="main" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="main" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="main" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="main" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="main" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024 -->
+    </classes>
+  </test> <!-- atlas_iPhone6sTest(failed) -->
   <test name="atlas_ChromeTest(failed)" parallel="tests">
     <parameter name="environment" value="Chrome"/>
     <parameter name="os" value="windows"/>
     <parameter name="config" value="parallel.conf.json"/>
     <classes>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008">
         <methods>
           <include name="main" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
           <include name="setUp"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024 -->
     </classes>
   </test> <!-- atlas_ChromeTest(failed) -->
   <test name="atlas_iPhone6Test(failed)" parallel="tests">
@@ -51,15 +266,102 @@
     <parameter name="os" value="ios"/>
     <parameter name="config" value="parallel.conf.json"/>
     <classes>
-      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest007 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest012 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008">
         <methods>
           <include name="main" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest008 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017">
+        <methods>
+          <include name="main" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest017 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="main" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Dinner -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="main" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest011_Regular -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="main" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest009 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
           <include name="setUp"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest005 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest014 -->
+      <class name="com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="main" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.backroads.atlas.testcases.UI.AtlasLeaderOnlyUSTest024 -->
     </classes>
   </test> <!-- atlas_iPhone6Test(failed) -->
 </suite> <!-- Failed suite [Parallel] -->
